@@ -19,6 +19,9 @@ hbs.registerPartials(partialPath);
 app.get("",(req,res)=>{
     res.render('index');
 })
+app.get("/index",(req,res)=>{
+    res.render('index');
+})
 
 app.get("/about",(req,res)=>{
     res.render('about');
@@ -26,6 +29,9 @@ app.get("/about",(req,res)=>{
 
 app.get("/cart",(req,res)=>{
     res.render('cart');
+})
+app.get("/login",(req,res)=>{
+    res.render('login');
 })
 
 app.get('*',(req,res)=>{
