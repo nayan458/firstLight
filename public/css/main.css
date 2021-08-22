@@ -374,6 +374,7 @@ footer{
         bottom: 0;
         background-color: rgba(255, 251, 255, 0);
         cursor: pointer;
+        position: fixed;
       }
 
 .lgin{
