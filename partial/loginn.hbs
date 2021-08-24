@@ -9,13 +9,15 @@
                                 <div id="login-menu-font">
                                     <div><i class="far fa-user"></i></div>
                                 </div>
-                                <input class="login-inp" type="email" placeholder="email">
+                                <form action="/hurray" method="POST">
+                                    <input class="login-inp" type="email" placeholder="email" name="emal" required>
                                 <br>
                                 <br>
-                                <input class="login-inp" type="password" placeholder="password">
+                                    <input class="login-inp" type="password" placeholder="password" name="pas" required>
                                 <br>
                                 <br>
-                                <button id="login-menu-btn" type="submit"><strong> LOG IN </strong></button>
+                                    <button id="login-menu-btn" type="submit"><strong> LOG IN </strong></button>
+                                </form>
                             </div>
                         </div>
                     </div>

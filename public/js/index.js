@@ -9,10 +9,10 @@ window.addEventListener('load',()=>{
 });
 
 ////
-const logbtn = document.getElementById('login-menu-btn');
-logbtn.addEventListener('click',()=>{
-    logform.style.display = "none";
-});
+// const logbtn = document.getElementById('login-menu-btn');
+// logbtn.addEventListener('click',()=>{
+//     logform.style.display = "none";
+// });
 
 
 const banTxt = document.getElementById('bnr-txt');
