@@ -5,16 +5,14 @@ const hbs = require("hbs");
 // const memb = require("./src/module/users");
 // require("./src/db/conn");
 
-app = express()
+app = express();
 
 // app.use(express.json())
 // app.use(express.urlencoded({extended:false}))
 
 const PathOfPublic = path.join(__dirname,"./public")
-console.log(PathOfPublic);
 
 const partialPath = path.join(__dirname,"./partial")
-console.log(partialPath);
 
 app.use(express.static(PathOfPublic))
 
